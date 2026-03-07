@@ -103,18 +103,46 @@ Use-as para descoberta, organização e triagem de literatura.
 
 # Descrição do _dataset_ selecionado
 
-Nesta seção, apresente uma visão clara e objetiva do dataset selecionado, incluindo:
-* Identificação e origem – Nome, link de acesso, fonte (instituição, repositório, API etc.) e licença de uso.
 * Loan Default Dataset, https://www.kaggle.com/datasets/yasserh/loan-default-dataset, kaggle.com
-* Visão geral – Total de registros e atributos, período coberto e breve contextualização.
-* 149 mil registros com 34 colunas no periodo de 2019 contemplando valores e caracteristicas do emprestimo como possibilidade de amortização, inadimplencia, dados do devedor como sexo, garantia, motivo do emprestimo, entre outros
-* Atributos – Tabela com nome, descrição, tipo, unidade de medida (se aplicável) e exemplos de valores.
-* Título,Descrição,Dados Faltantes
+* 149 mil registros com 34 colunas no periodo de 2019 contemplando valores e caracteristicas do emprestimo como possibilidade de amortização, inadimplencia, dados do devedor como sexo, garantia, motivo do emprestimo, entre outros.
+* | titulo | descrição | dados faltante |
+ | --- | --- | --- |
+|ID|Identificador único da solicitação de empréstimo.|0|
+|year|Ano em que o empréstimo foi solicitado.|0|
+|loan_limit|Indica se o empréstimo segue normas padrão (cf) ou não (ncf).|3344|
+|Gender|"Gênero do solicitante (masculino, feminino, conjunto, não informado)."|0|
+|approv_in_adv|Indica se houve pré-aprovação do empréstimo (pre) ou não (nopre).|908|
+|loan_type|"Categoria do tipo de empréstimo (type1, 2, 3)."|0|
+|loan_purpose|"Motivo do empréstimo (p1, p2, p3, p4)."|134|
+|Credit_Worthiness|"Solvência/idoneidade de crédito (l1, l2)."|0|
+|open_credit|Indica se o solicitante possui contas de crédito abertas (opc) ou não (nopc).|0|
+|business_or_commercial|Finalidade do empréstimo: Comercial (ob/c) ou pessoal (nob/c).|0|
+|loan_amount|Valor solicitado no empréstimo.|0|
+|rate_of_interest|Taxa de juros aplicada ao empréstimo.|36.4K|
+|Interest_rate_spread|Diferença entre a taxa de juros do empréstimo e uma taxa de referência (benchmark).|36.6K|
+|Upfront_charges|Taxas iniciais cobradas para liberar o crédito.|39.6k|
+|term|Prazo para pagamento do empréstimo (em meses).|41|
+|Neg_ammortization|Indica se permite amortização negativa (quando a dívida aumenta mesmo pagando).|121|
+|interest_only|Indica se há opção de pagar apenas juros (sem abater o principal).|0|
+|lump_sum_payment|Indica se exige pagamento de uma parcela única final (balão).|0|
+|property_value|Valor do imóvel usado como garantia.|15.1|
+|construction_type|"Tipo de construção (sb: construído no local, mh: casa pré-fabricada)."|0|
+|occupancy_type|"Tipo de ocupação (residência principal, secundária ou investimento)."|0|
+|Secured_by|"Tipo de garantia real (ex: casa, terreno)."|0|
+|total_units|"Quantidade de unidades no imóvel financiado (1U, 2U, etc.)."|0|
+|income|Renda anual do solicitante.|9150|
+|credit_type|"Bureau de crédito consultado (CIB, CRIF, EXP, EQUI)."|0|
+|Credit_Score|Pontuação de crédito do solicitante.|0|
+|co-applicant_credit_type|Bureau de crédito do co-requerente (se houver).|0|
+|age|Idade do solicitante.|200|
+|submission_of_application|Forma de submissão (via instituição ou não).|0|
+|LTV|Loan-to-Value: Relação entre o valor do empréstimo e o valor do imóvel.|15.1k|
+|Region|Região geográfica do imóvel.|0
+|Security_Type|Tipo de segurança/garantia (direta ou indireta).|0|
+|Status|Status do empréstimo Em inadimplência (1) ou adimplente (0).|0|
+|dtir1|Debt-to-Income Ratio: Relação entre dívidas e renda mensal.|24.1K|
 
-[Título ],[Descrição],[Dados faltantes]
-* Qualidade dos dados – Presença de valores faltantes, inconsistências, duplicatas ou outliers.
 
-**Dica:** Seja objetivo, mas inclua detalhes suficientes para que outra pessoa possa entender e reutilizar o conjunto de dados sem buscar informações extras.
 
 # Canvas analítico
 
