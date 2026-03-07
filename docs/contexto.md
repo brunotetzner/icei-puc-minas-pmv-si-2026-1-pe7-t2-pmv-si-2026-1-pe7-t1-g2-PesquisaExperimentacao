@@ -105,8 +105,13 @@ Use-as para descoberta, organização e triagem de literatura.
 
 Nesta seção, apresente uma visão clara e objetiva do dataset selecionado, incluindo:
 * Identificação e origem – Nome, link de acesso, fonte (instituição, repositório, API etc.) e licença de uso.
+* Loan Default Dataset, https://www.kaggle.com/datasets/yasserh/loan-default-dataset, kaggle.com
 * Visão geral – Total de registros e atributos, período coberto e breve contextualização.
+* 149 mil registros com 34 colunas no periodo de 2019 contemplando valores e caracteristicas do emprestimo como possibilidade de amortização, inadimplencia, dados do devedor como sexo, garantia, motivo do emprestimo, entre outros
 * Atributos – Tabela com nome, descrição, tipo, unidade de medida (se aplicável) e exemplos de valores.
+* Título,Descrição,Dados Faltantes
+
+[Título ],[Descrição],[Dados faltantes]
 * Qualidade dos dados – Presença de valores faltantes, inconsistências, duplicatas ou outliers.
 
 **Dica:** Seja objetivo, mas inclua detalhes suficientes para que outra pessoa possa entender e reutilizar o conjunto de dados sem buscar informações extras.
