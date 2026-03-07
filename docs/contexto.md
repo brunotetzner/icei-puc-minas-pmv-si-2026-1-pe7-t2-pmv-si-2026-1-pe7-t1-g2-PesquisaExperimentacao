@@ -105,6 +105,7 @@ Use-as para descoberta, organização e triagem de literatura.
 
 * Loan Default Dataset, https://www.kaggle.com/datasets/yasserh/loan-default-dataset, kaggle.com
 * 149 mil registros com 34 colunas no periodo de 2019 contemplando valores e caracteristicas do emprestimo como possibilidade de amortização, inadimplencia, dados do devedor como sexo, garantia, motivo do emprestimo, entre outros.<br>
+* Colunas do Dataset:
 | titulo | descrição | dados faltante |<br>
 |----------|----------|----------|<br>
 | ID | Identificador único da solicitação de empréstimo | 0 |<br>
