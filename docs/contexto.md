@@ -106,43 +106,6 @@ Use-as para descoberta, organização e triagem de literatura.
 * Loan Default Dataset, https://www.kaggle.com/datasets/yasserh/loan-default-dataset, kaggle.com
 * 149 mil registros com 34 colunas no periodo de 2019 contemplando valores e caracteristicas do emprestimo como possibilidade de amortização, inadimplencia, dados do devedor como sexo, garantia, motivo do emprestimo, entre outros.<br>
 * Colunas do Dataset:
-| titulo | descrição | dados faltante |<br>
-|----------|----------|----------|<br>
-| ID | Identificador único da solicitação de empréstimo | 0 |<br>
-| year | Ano em que o empréstimo foi solicitado | 0 |<br>
-| loan_limit | Indica se o empréstimo segue normas padrão (cf) ou não (ncf) | 3344 |<br>
-| Gender | Gênero do solicitante (masculino, feminino, conjunto, não informado). | 0 |<br>
-| approv_in_adv | Indica se houve pré-aprovação do empréstimo (pre) ou não (nopre). | 908 |<br>
-| loan_type | Categoria do tipo de empréstimo (type1, 2, 3). | 0 |<br>
-| loan_purpose | Motivo do empréstimo (p1, p2, p3, p4). | 134 |<br>
-| Credit_Worthiness | Solvência/idoneidade de crédito (l1, l2). | 0 |<br>
-| open_credit | Indica se o solicitante possui contas de crédito abertas (opc) ou não (nopc). | 0 |<br>
-| business_or_commercial | Finalidade do empréstimo: Comercial (ob/c) ou pessoal (nob/c). | 0 |<br>
-| loan_amount | Valor solicitado no empréstimo. | 0 |<br>
-| rate_of_interest | Taxa de juros aplicada ao empréstimo. | 36.4K |<br>
-| Interest_rate_spread | Diferença entre a taxa de juros do empréstimo e uma taxa de referência (benchmark). | 36.6K |<br>
-| Upfront_charges | Taxas iniciais cobradas para liberar o crédito. | 39.6k |<br>
-| term | Prazo para pagamento do empréstimo (em meses). | 41 |<br>
-| Neg_ammortization | Indica se permite amortização negativa (quando a dívida aumenta mesmo pagando). | 121 |<br>
-| interest_only | Indica se há opção de pagar apenas juros (sem abater o principal). | 0 |<br>
-| lump_sum_payment | Indica se exige pagamento de uma parcela única final (balão). | 0 |<br>
-| property_value | Valor do imóvel usado como garantia. | 15.1 |<br>
-| construction_type | Tipo de construção (sb: construído no local, mh: casa pré-fabricada). | 0 |<br>
-| occupancy_type | Tipo de ocupação (residência principal, secundária ou investimento). | 0 |<br>
-| Secured_by | Tipo de garantia real (ex: casa, terreno). | 0 |<br>
-| total_units | Quantidade de unidades no imóvel financiado (1U, 2U, etc.). | 0 |<br>
-| income | Renda anual do solicitante. | 9150 |<br>
-| credit_type | Bureau de crédito consultado (CIB, CRIF, EXP, EQUI). | 0 |<br>
-| Credit_Score | Pontuação de crédito do solicitante. | 0 |<br>
-| co-applicant_credit_type | Bureau de crédito do co-requerente (se houver). | 0 |<br>
-| age | Idade do solicitante. | 200 |<br>
-| submission_of_application | Forma de submissão (via instituição ou não). | 0 |<br>
-| LTV | Loan-to-Value: Relação entre o valor do empréstimo e o valor do imóvel. | 15.1k |<br>
-| Region | Região geográfica do imóvel. | 0 |<br>
-| Security_Type | Tipo de segurança/garantia (direta ou indireta). | 0 |<br>
-| Status | Status do empréstimo Em inadimplência (1) ou adimplente (0). | 0 |<br>
-| dtir1 | Debt-to-Income Ratio: Relação entre dívidas e renda mensal. | 24.1K |<br>
-|----------|----------|----------|
 
 | titulo | descrição | dados faltantes |
 |----------|----------|----------|
