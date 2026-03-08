@@ -49,21 +49,9 @@ O dataset escolhido para este projeto contém diversas informações relevantes 
 
 ## Público-Alvo
 
-Nesta seção, descreva quem poderá se beneficiar com a sua investigação, apresentando os diferentes perfis de pessoas ou grupos impactados.
+O público-alvo deste projeto inclui instituições financeiras, como bancos, fintechs e cooperativas de crédito, que realizam processos de análise e concessão de empréstimos. Os resultados do estudo podem contribuir para a melhoria da avaliação de risco de crédito, auxiliando na identificação de clientes com maior probabilidade de inadimplência.
 
-O objetivo aqui não é definir clientes específicos ou papéis exatos dentro da aplicação, mas sim compreender o perfil dos usuários e partes interessadas. Para isso, considere:
-* Conhecimentos prévios relacionados ao domínio do problema e ao uso de tecnologia;
-* Nível de familiaridade com recursos digitais e possíveis barreiras de uso;
-* Contexto profissional e hierárquico, quando aplicável (ex.: nível de decisão, responsabilidades, área de atuação);
-* Necessidades e expectativas que podem ser atendidas pelo projeto.
-
-**Dica:** Seja objetivo e baseie suas descrições em informações reais ou plausíveis para o contexto escolhido. Isso ajudará a manter o foco no desenvolvimento de soluções relevantes e aplicáveis.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Além disso, o projeto também se destina a profissionais da área financeira, como analistas de crédito e gestores de risco, bem como pesquisadores e estudantes das áreas de ciência de dados, administração, economia e sistemas de informação, interessados na aplicação de técnicas de aprendizado de máquina na análise de dados financeiros.
 
 # Estado da arte
 
