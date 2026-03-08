@@ -143,6 +143,43 @@ Use-as para descoberta, organização e triagem de literatura.
 | Status | Status do empréstimo Em inadimplência (1) ou adimplente (0). | 0 |<br>
 | dtir1 | Debt-to-Income Ratio: Relação entre dívidas e renda mensal. | 24.1K |<br>
 |----------|----------|----------|
+
+| titulo | descrição | dados faltantes |
+|----------|----------|----------|
+| ID | Identificador único da solicitação de empréstimo | 0 |
+| year | Ano em que o empréstimo foi solicitado | 0 |
+| loan_limit | Indica se o empréstimo segue normas padrão (cf) ou não (ncf) | 3344 |
+| Gender | Gênero do solicitante (masculino, feminino, conjunto, não informado). | 0 |
+| approv_in_adv | Indica se houve pré-aprovação do empréstimo (pre) ou não (nopre). | 908 |
+| loan_type | Categoria do tipo de empréstimo (type1, 2, 3). | 0 |
+| loan_purpose | Motivo do empréstimo (p1, p2, p3, p4). | 134 |
+| Credit_Worthiness | Solvência/idoneidade de crédito (l1, l2). | 0 |
+| open_credit | Indica se o solicitante possui contas de crédito abertas (opc) ou não (nopc). | 0 |
+| business_or_commercial | Finalidade do empréstimo: Comercial (ob/c) ou pessoal (nob/c). | 0 |
+| loan_amount | Valor solicitado no empréstimo. | 0 |
+| rate_of_interest | Taxa de juros aplicada ao empréstimo. | 36.4K |
+| Interest_rate_spread | Diferença entre a taxa de juros do empréstimo e uma taxa de referência (benchmark). | 36.6K |
+| Upfront_charges | Taxas iniciais cobradas para liberar o crédito. | 39.6K |
+| term | Prazo para pagamento do empréstimo (em meses). | 41 |
+| Neg_ammortization | Indica se permite amortização negativa. | 121 |
+| interest_only | Indica se há opção de pagar apenas juros. | 0 |
+| lump_sum_payment | Indica se exige pagamento de uma parcela única final. | 0 |
+| property_value | Valor do imóvel usado como garantia. | 15.1K |
+| construction_type | Tipo de construção (sb, mh). | 0 |
+| occupancy_type | Tipo de ocupação (principal, secundária, investimento). | 0 |
+| Secured_by | Tipo de garantia real. | 0 |
+| total_units | Quantidade de unidades no imóvel financiado. | 0 |
+| income | Renda anual do solicitante. | 9150 |
+| credit_type | Bureau de crédito consultado. | 0 |
+| Credit_Score | Pontuação de crédito do solicitante. | 0 |
+| co-applicant_credit_type | Bureau de crédito do co-requerente. | 0 |
+| age | Idade do solicitante. | 200 |
+| submission_of_application | Forma de submissão. | 0 |
+| LTV | Relação entre valor do empréstimo e valor do imóvel. | 15.1K |
+| Region | Região geográfica do imóvel. | 0 |
+| Security_Type | Tipo de segurança/garantia. | 0 |
+| Status | Em inadimplência (1) ou adimplente (0). | 0 |
+| dtir1 | Debt-to-Income Ratio. | 24.1K |
 # Canvas analítico
 
 <img width="1086" height="714" alt="image" src="https://github.com/user-attachments/assets/9b1f375c-d4e9-43aa-9621-489581c5c642" />
