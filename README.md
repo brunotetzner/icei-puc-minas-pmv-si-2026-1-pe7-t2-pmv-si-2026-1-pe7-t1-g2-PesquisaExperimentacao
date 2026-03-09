@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Nome completo do aluno 2
 * Victor Alexandre Ferreira Santos
 * Samuel Lacerda Borges
-* Nome completo do aluno 5
+* Pedro Vinicius Ribeiro Teixeira Justino
 * Vitor Alberto Gonçalves Cavaco
 
 ## Orientador
